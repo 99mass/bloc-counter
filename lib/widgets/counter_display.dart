@@ -13,7 +13,7 @@ class CounterDisplay extends StatelessWidget {
         builder: (context, count) {
           return Text(
             '$count',
-            style: Theme.of(context).textTheme.headline4,
+            style: Theme.of(context).textTheme.headlineMedium,
           );
         },
       ),
